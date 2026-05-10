@@ -19,6 +19,8 @@ public static class Divisors {
     private static List<int> FindDivisors(int number) {
         List<int> results = new();
         // TODO problem 1
+        // loop from 1 to number-1 and check if i divides evenly into number
+        // if number % i == 0, then i is a divisor
          for (int i = 1; i < number; i++)
         {
             if (number % i == 0)
